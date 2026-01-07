@@ -62,7 +62,7 @@ def softmax_loss(Z: np.ndarray, y: np.ndarray) -> np.ndarray:
             containing the true label of each example.
 
     Returns:
-        Average softmax loss over the sample.
+        Average softmax loss over the sample. Shape=[] (aka scalar)
     """
     ### BEGIN YOUR SOLUTION
     raise NotImplementedError()
